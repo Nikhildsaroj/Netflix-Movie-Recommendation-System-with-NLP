@@ -1,12 +1,12 @@
 
 
 
-*"Netflix Movie Recommendation System with NLP: Content-Based Approach"*
+##"Netflix Movie Recommendation System with NLP: Content-Based Approach"
 
-**Description:**
+##**Description:**
 This repository houses a Netflix movie recommendation system built using natural language processing (NLP) techniques and a content-based approach. The system is designed to provide personalized movie recommendations based on user preferences and movie descriptions. It utilizes a dataset containing 5000 data points of movies.
 
-**Key Details:**
+##**Key Details:**
 - **Dataset:** Netflix movie dataset with 5000 data points.
 - **Tasks:** Checking null values, Cleaning Data, Utilizing NLP tasks.
 - **Techniques Used:** Count Vectorizer for word vectorization, Cosine Similarity for measuring vector distances.
