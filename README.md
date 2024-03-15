@@ -16,7 +16,9 @@ The project begins with data preprocessing steps, including checking for null va
 
 ### Repository Contents:
 - **Jupyter Notebook:** Contains the Python code for data preprocessing, NLP tasks, and recommendation system implementation.
-- **Dataset File:** Includes the Netflix movie dataset used for analysis.
+- **Dataset File:** Includes the Netflix movie dataset used for analysis.\
+- Dataset Link: (https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) - Please download the dataset from this Kaggle link before using it in the project.
+
 
 ### Instructions:
 To explore the Netflix movie recommendation system and understand the underlying NLP techniques, clone this repository and run the provided Jupyter Notebook. Feel free to experiment with different parameters and algorithms to enhance the recommendation system's performance.
