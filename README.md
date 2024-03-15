@@ -22,5 +22,13 @@ The project begins with data preprocessing steps, including checking for null va
 
 ### Instructions:
 To explore the Netflix movie recommendation system and understand the underlying NLP techniques, clone this repository and run the provided Jupyter Notebook. Feel free to experiment with different parameters and algorithms to enhance the recommendation system's performance.
+# Recommendation Result:
+![image](https://github.com/Nikhildsaroj/Netflix-Movie-Recommendation-System-with-NLP/assets/148480961/3e7421ab-ad2a-4ef9-bcd1-bdc6ff78e30a)
+
+![image](https://github.com/Nikhildsaroj/Netflix-Movie-Recommendation-System-with-NLP/assets/148480961/918c4576-68ae-4ba3-a1c9-6bf8e13c14f7)
+
+![image](https://github.com/Nikhildsaroj/Netflix-Movie-Recommendation-System-with-NLP/assets/148480961/fd2a4d26-789a-472a-be24-58f42156dd33)
+
+
 
 
