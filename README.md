@@ -1,5 +1,3 @@
-
-
 ## Netflix Movie Recommendation System with NLP: Content-Based Approach
 
 ### Description:
@@ -16,19 +14,22 @@ The project begins with data preprocessing steps, including checking for null va
 
 ### Repository Contents:
 - **Jupyter Notebook:** Contains the Python code for data preprocessing, NLP tasks, and recommendation system implementation.
-- **Dataset File:** Includes the Netflix movie dataset used for analysis.\
-- Dataset Link: (https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) - Please download the dataset from this Kaggle link before using it in the project.
-
+- **movie.py:** Contains code for deploying the recommendation system using FastAPI.
+- **Dataset File:** Includes the Netflix movie dataset used for analysis.
+- **Dataset Link:** [Netflix Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) - Please download the dataset from this Kaggle link before using it in the project.
 
 ### Instructions:
-To explore the Netflix movie recommendation system and understand the underlying NLP techniques, clone this repository and run the provided Jupyter Notebook. Feel free to experiment with different parameters and algorithms to enhance the recommendation system's performance.
-# Recommendation Result:
-![image](https://github.com/Nikhildsaroj/Netflix-Movie-Recommendation-System-with-NLP/assets/148480961/3e7421ab-ad2a-4ef9-bcd1-bdc6ff78e30a)
 
-![image](https://github.com/Nikhildsaroj/Netflix-Movie-Recommendation-System-with-NLP/assets/148480961/918c4576-68ae-4ba3-a1c9-6bf8e13c14f7)
+#### For Jupyter Notebook:
+1. Clone this repository.
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+  ### Instructions to run on vscode :  
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
 
-![image](https://github.com/Nikhildsaroj/Netflix-Movie-Recommendation-System-with-NLP/assets/148480961/fd2a4d26-789a-472a-be24-58f42156dd33)
 
-
-
+uvicorn movie:app --host 0.0.0.0 --port 8001
 
