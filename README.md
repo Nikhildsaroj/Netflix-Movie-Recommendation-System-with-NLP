@@ -25,11 +25,17 @@ The project begins with data preprocessing steps, including checking for null va
 2. Install the required packages:
    ```bash
    pip install -r requirements.txt
-  ### Instructions to run on vscode :  
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
+### Instructions to run on vscode :  
+1.python -m venv venv.
+2.venv\Scripts\activate.
+3.pip install -r requirements.txt.
 
 
-uvicorn movie:app --host 0.0.0.0 --port 8001
+4.uvicorn movie:app --host 0.0.0.0 --port 8001
+output:
+![image](https://github.com/user-attachments/assets/42b60a45-d747-453c-be82-899ee24475a5)
+
+![image](https://github.com/user-attachments/assets/cad72b7e-857a-4361-a6a3-c29fe785f578)
+
+
 
